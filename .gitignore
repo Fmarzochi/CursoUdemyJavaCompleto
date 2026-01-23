@@ -1,1 +1,23 @@
+# Compilação e Binários
 *.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Maven e Gradle
+target/
+.gradle/
+build/
+
+# IDEs
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# SO e Temporários
+.DS_Store
+Thumbs.db
