@@ -1,29 +1,25 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compilados (Bytecode)
+*.class
+*.jar
+*.war
+*.ear
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Pastas de build
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+build/
+target/
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# Configurações de IDEs
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+*.iws
 .vscode/
+.factorypath
 
-### Mac OS ###
-.DS_Store
+# Logs e arquivos temporários
+*.log
+tmp/
