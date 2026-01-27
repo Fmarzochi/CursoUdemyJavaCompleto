@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class sintaxe_opcional {
         public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
@@ -20,3 +20,7 @@ public class Main {
         sc.close();
     }
 }
+
+/*
+Operadores de atribuição Cumulativa
+ */
